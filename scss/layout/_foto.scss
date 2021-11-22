@@ -18,7 +18,7 @@
         flex-basis: calc((100% - 2 * 30px) / 2);
         margin: 15px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1170px) {
         flex-basis: calc((100% - 3 * 30px) / 3);
     }
     &:not(:last-child) {
