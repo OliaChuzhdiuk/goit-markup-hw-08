@@ -3,7 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             justify-content: center;
         }
     }
@@ -12,7 +12,7 @@
         margin-bottom: 15px;
         margin-right: 8px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             &:not(:last-child) {
                 margin-right: 8px;
             }

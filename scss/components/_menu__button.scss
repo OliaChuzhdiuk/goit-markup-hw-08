@@ -13,7 +13,7 @@
         &:focus {
             fill: var(--accent-text-color);
         }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             display: none;
         }
     }
@@ -49,7 +49,7 @@
             justify-content: space-between;
             overflow-y: scroll;
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 767px) {
             display: none;
             position: absolute;
             top: 0;
@@ -63,7 +63,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 200px;
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             display: none;
         }
     }
@@ -88,7 +88,7 @@
         display: flex;
         flex-direction: column;
         margin-top: auto;
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             display: none;
         }
     }
@@ -123,7 +123,7 @@
     .mobile-social {
         display: flex;
         justify-content: flex-start;
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 767px) {
             display: none;
         }
     }

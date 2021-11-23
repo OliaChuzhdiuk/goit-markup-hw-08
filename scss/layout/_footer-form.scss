@@ -39,7 +39,7 @@
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: var(--secondary-text-color);
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 767px) {
         width: 450px;
     }
     @media screen and (min-width: 1170px) {
