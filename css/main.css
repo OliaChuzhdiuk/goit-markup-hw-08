@@ -1285,6 +1285,7 @@ a {
 }
 
 .form__title {
+  display: flex;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -1297,6 +1298,7 @@ a {
 @media screen and (max-width: 1170px) {
   .form__title {
     text-align: center;
+    justify-content: center;
   }
 }
 
