@@ -42,10 +42,8 @@
 }
 
 .footer-social__list {
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
-    @media screen and (min-width: 767px) {
-        padding-top: 20px;
-    }
 }

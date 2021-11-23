@@ -1257,15 +1257,10 @@ a {
 }
 
 .footer-social__list {
+  padding-top: 20px;
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-@media screen and (min-width: 767px) {
-  .footer-social__list {
-    padding-top: 20px;
-  }
 }
 
 .form {
@@ -1284,7 +1279,12 @@ a {
 
 .footer__label {
   display: block;
-  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__label {
+    width: 100%;
+  }
 }
 
 .form__title {
