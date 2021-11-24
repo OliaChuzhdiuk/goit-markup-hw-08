@@ -845,7 +845,6 @@ a {
 }
 
 .feature__title {
-  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -883,12 +882,6 @@ a {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .feature__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
 .feature__box {
   margin-bottom: 30px;
   align-items: center;
@@ -902,8 +895,6 @@ a {
 }
 
 .feature__text {
-  margin-top: 0;
-  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
