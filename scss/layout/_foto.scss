@@ -1,12 +1,13 @@
 .foto__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primery-text-color);
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
 }
 
 .foto__item {

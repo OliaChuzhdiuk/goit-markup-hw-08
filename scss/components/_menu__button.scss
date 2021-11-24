@@ -1,13 +1,11 @@
     .menu__button {
         z-index: 850;
-        display: inline-flex;
-        float: right;
-        border: 0;
+        display: flex;
+        border: none;
         background-color: transparent;
         cursor: pointer;
         padding: 0;
         line-height: 0;
-        border: 20%;
         fill: var(--secondary-text-color);
         &:hover,
         &:focus {
@@ -32,7 +30,7 @@
     
     .mobile__container {
         display: none;
-        position: absolute;
+        position: fixed;
         min-height: 100vh;
         top: 0;
         left: 0;
@@ -42,12 +40,10 @@
         font-size: 20px;
         border-radius: 4px;
         &.is-open {
-            z-index: 800;
             position: fixed;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            overflow-y: scroll;
         }
         @media screen and (max-width: 767px) {
             display: none;
@@ -62,7 +58,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 200px;
+        margin-bottom: 150px;
         @media screen and (min-width: 767px) {
             display: none;
         }
@@ -85,16 +81,13 @@
     }
     
     .contacts-cotainer {
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
         @media screen and (min-width: 767px) {
             display: none;
         }
     }
     
     .mobile-contacts {
-        margin-bottom: 64px;
+        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;

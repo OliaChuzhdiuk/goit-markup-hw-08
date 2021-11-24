@@ -1,24 +1,25 @@
 .hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-title-color);
     @media screen and (min-width: 1170px) {
-        margin-top: 0;
-        margin-bottom: 30px;
+        // margin-top: 0;
+        // margin-bottom: 30px;
         font-size: 44px;
         line-height: 1.36;
         letter-spacing: 0.06em;
-        text-transform: uppercase;
         text-align: center;
         color: var(--secondary-title-color);
     }
 }
 
 .hero__btn {
+    border: transparent;
     padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
@@ -30,9 +31,6 @@
 
 .btn {
     border-radius: 4px;
-    display: inline-block;
-    min-width: 73px;
-    text-align: center;
     cursor: pointer;
     background-color: var(--accent-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
