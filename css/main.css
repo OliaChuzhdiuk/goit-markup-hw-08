@@ -412,6 +412,7 @@ a {
 }
 
 .mobile__container {
+  z-index: 850;
   display: none;
   position: fixed;
   min-height: 100vh;
