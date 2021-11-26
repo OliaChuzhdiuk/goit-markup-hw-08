@@ -48,3 +48,9 @@
         letter-spacing: 0.03em;
         color: var(--secondary-text-color);
     }
+    
+    .feature__item:not(:last-child) {
+        @media screen and (max-width: 768px) {
+            margin-bottom: 10px;
+        }
+    }

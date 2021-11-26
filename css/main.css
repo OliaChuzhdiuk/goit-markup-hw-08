@@ -412,7 +412,6 @@ a {
 }
 
 .mobile__container {
-  z-index: 850;
   display: none;
   position: fixed;
   min-height: 100vh;
@@ -900,6 +899,12 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .feature__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .about__section {
